@@ -1,6 +1,6 @@
 html, body {
-    margin: 20px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 canvas {
@@ -8,7 +8,19 @@ canvas {
 }
   
 .canvasDiv{
-    background-color: aqua;
-   width: 100px;
-   height: 200px;
+  margin-left: 100px;
+}
+.box1{
+    width: 500px;
+    height: 400px;
+   border-color:black;
+   background-color: aqua;
+   border-width: 10px;
+   border-style: double;
+  margin: 100px 200px 100px 300px;
+
+}
+.dog{
+    color: tomato;
+    font-size: 50px;
 }
