@@ -1,0 +1,13 @@
+html, body {
+    margin: 20px;
+    padding: 10px;
+}
+
+canvas {
+    display: block;
+}
+  
+.canvasDiv{
+   width: 100px;
+   height: 200px;
+}
