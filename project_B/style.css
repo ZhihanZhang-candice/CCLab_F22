@@ -34,7 +34,9 @@ section{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #2696E9;
+  /* background: linear-gradient(rgb(4, 7, 42)) */
+  /* filter: brightness(70%); */
+  background-color: rgba(47, 13, 199, 0.25);
 }
 
 .content{
@@ -154,14 +156,14 @@ body{
   display: flex;
   align-items: center;
   transform: translateY(80px);
-  margin-bottom: 12px;
+  margin-bottom: 60px;
 }
 
 #leftdot{
-  width: 8px;
-  height: 8px;
+  width: 14px;
+  height: 14px;
 }
 #rightdot{
-  width: 8px;
-  height: 8px;
+  width: 14px;
+  height: 14px;
 }

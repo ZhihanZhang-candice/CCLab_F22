@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+  /* canvas { */
+.container{
+  width: 100vw;
+  height: 100%;
+}
+h1{
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+section{
+  height: 100vh;
+  position: relative;
+  color: rgba(255,255, 255, .8);
+  font-size: 10vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 4px 4px rgb(46,43,43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  user-select: none;
+  background-size: cover;
+  background-image: url(../picture/bu2.jpg);
+}
+
+#linkDiv{
+  text-align: center;
+}
+
+/* /* #link{
+  text-align: center;
+  /* display: inline-block; */
+/* }  */
+
+
+.content-one{
+  background: url("../picture/bu1.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+#canvasContainer{
+  position: relative;
+  width: 100%;
+ height: 100vh;
+
+}
+.text-box{
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 25%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .3);
+  transform-origin: center bottom;
+  transform: skew(0,-8deg);
+}
+.cnt{
+  display: inline-block;
+  text-align: right;
+  margin: 4px 0 10px;
+  width: 90%;
+  max-width: 900px;
+  transform-origin: right bottom;
+  transform: skew(0,8deg);
+
+}
+h2{
+  margin-top: 100px;
+  font-size: 36px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 1px 0px 0px #323232;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  color: white;
+}
+#link{
+font-size: 30px;
+ text-decoration: none;
+  background-color: rgb(121, 159, 240);
+  color: #fff;
+}
